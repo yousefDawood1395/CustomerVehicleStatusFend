@@ -58,6 +58,7 @@ export class CustomerVehiclesComponent implements OnInit {
       this.startHttpRequest();
     this.addTransferStatusDataListener();
     });
+    
   }
 
   public startConnection = () => {
